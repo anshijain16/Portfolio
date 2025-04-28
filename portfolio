@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anshi Jain | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #f9fafb;
+      color: #333;
+      overflow-x: hidden;
+    }
+    header {
+      background: #0d6efd;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0d6efd;
+      font-weight: 600;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #0d6efd;
+    }
+    .content {
+      display: grid;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0d6efd;
+      color: white;
+      margin-top: 40px;
+    }
+    @media (min-width: 768px) {
+      .content {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (min-width: 1024px) {
+      .content {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Hi, I'm Anshi Jain <span id="typed"></span>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#education">Education</a>
+  <a href="#certifications">Certifications</a>
+</nav>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <p> Aspiring Python Full Stack Developer with hands-on skills in HTML, CSS, JavaScript, React, and Python frameworks like Flask/Django. Familiar with data analytics, Python libraries (Pandas, NumPy), and database concepts. Passionate about building impactful tech solutions and continuous learning. </p>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Skills</h2>
+  <div class="content">
+    <div class="card">Python</div>
+    <div class="card">SQL</div>
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">JavaScript</div>
+    <div class="card">ReactJS</div>
+    <div class="card">Django</div>
+    <div class="card">PowerBI</div>
+    <div class="card">Excel</div>
+    <div class="card">Data Analytics</div>
+    <div class="card">GitHub</div>
+    <div class="card">AI & ML</div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2 class="section-title">Work Experience</h2>
+  <div class="card">
+    <h3>Web Developer Intern - Oasis Infobyte</h3>
+    <p>July 2024 - September 2024 | Remote</p>
+    <ul>
+      <li>Designed and deployed 5+ responsive websites.</li>
+      <li>Optimized website performance by 30%.</li>
+      <li>Collaborated in a team of 4 to deliver 3 projects.</li>
+      <li>Developed features with HTML, CSS, JavaScript, React.js.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Projects</h2>
+  <div class="content">
+    <div class="card">
+      <h3>AI-Powered Chatbot</h3>
+      <p>React.js | Django | PostgreSQL</p>
+      <ul>
+        <li>Automated 40% of customer queries.</li>
+        <li>Improved response accuracy by 25%.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>E-Commerce Website</h3>
+      <p>HTML | CSS | JavaScript | Python | SQL</p>
+      <ul>
+        <li>Boosted conversions by 20%.</li>
+        <li>Scaled to 10,000+ products.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Rapido Ride Analytics Dashboard</h3>
+      <p>Python | Pandas | Seaborn | Power BI</p>
+      <ul>
+        <li>Visualized real-time performance metrics.</li>
+        <li>Enhanced service insights.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <h2 class="section-title">Education</h2>
+  <div class="content">
+    <div class="card">
+      <h3>B.Tech (CSE)</h3>
+      <p>Dr. A.P.J. Abdul Kalam Technical University (CGPA - 7.5)</p>
+    </div>
+    <div class="card">
+      <h3>Intermediate (PCM)</h3>
+      <p>Dr. Maria Residential Academy (71%)</p>
+    </div>
+    <div class="card">
+      <h3>10th Grade</h3>
+      <p>K.D. Public School (80%)</p>
+    </div>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2 class="section-title">Certifications</h2>
+  <div class="card">
+    <h3>Python Full-Stack Development with Data Analytics</h3>
+    <p>Qspiders Gurugram (October 2024 - April 2025)</p>
+  </div>
+</section>
+
+<footer>
+  Connect with me: <a style="color: #fff;" href="https://github.com/anshijain16" target="_blank">GitHub</a>
+</footer>
+
+<script>
+  new Typed('#typed', {
+    strings: ['Full Stack Developer', 'Data Analyst', 'Tech Enthusiast'],
+    typeSpeed: 50,
+    backSpeed: 25,
+    loop: true
+  });
+
+  ScrollReveal().reveal('section', { delay: 300, distance: '50px', origin: 'bottom', interval: 200 });
+</script>
+
+</body>
+</html>
